@@ -1,0 +1,14 @@
+import math as m
+import time
+
+N = 10
+input = open('input.txt','r')
+output = open('output.txt','r+')
+print(input.read())
+
+
+
+
+print(output.read())
+input.close()
+output.close()

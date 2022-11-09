@@ -1,0 +1,38 @@
+import math as m
+import time
+
+
+input = open('input.txt','r')
+Text = input.read().lower()
+print(Text)
+
+print('a kommt', Text.count("a"), 'mal im Text vor.')
+print('b kommt', Text.count("b"), 'mal im Text vor.')
+print('c kommt', Text.count("c"), 'mal im Text vor.')
+print('d kommt', Text.count("d"), 'mal im Text vor.')
+print('e kommt', Text.count("e"), 'mal im Text vor.')
+print('f kommt', Text.count("f"), 'mal im Text vor.')
+print('g kommt', Text.count("g"), 'mal im Text vor.')
+print('h kommt', Text.count("h"), 'mal im Text vor.')
+print('i kommt', Text.count("i"), 'mal im Text vor.')
+print('j kommt', Text.count("j"), 'mal im Text vor.')
+print('k kommt', Text.count("k"), 'mal im Text vor.')
+print('l kommt', Text.count("l"), 'mal im Text vor.')
+print('m kommt', Text.count("m"), 'mal im Text vor.')
+print('n kommt', Text.count("n"), 'mal im Text vor.')
+print('o kommt', Text.count("o"), 'mal im Text vor.')
+print('p kommt', Text.count("p"), 'mal im Text vor.')
+print('q kommt', Text.count("q"), 'mal im Text vor.')
+print('r kommt', Text.count("r"), 'mal im Text vor.')
+print('s kommt', Text.count("s"), 'mal im Text vor.')
+print('t kommt', Text.count("t"), 'mal im Text vor.')
+print('u kommt', Text.count("u"), 'mal im Text vor.')
+print('v kommt', Text.count("v"), 'mal im Text vor.')
+print('w kommt', Text.count("w"), 'mal im Text vor.')
+print('x kommt', Text.count("x"), 'mal im Text vor.')
+print('y kommt', Text.count("y"), 'mal im Text vor.')
+print('z kommt', Text.count("z"), 'mal im Text vor.')
+
+
+
+input.close()
